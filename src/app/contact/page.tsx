@@ -1,13 +1,13 @@
 import React from "react";
 
 export const metadata = {
-  title: "Legal Disclaimer — Georgia Law Guide",
+  title: "Legal Disclaimer — Georgia Car Crash Guide",
   description:
-    "Georgia Law Guide provides educational legal information, not legal advice. This site does not create an attorney-client relationship.",
+    "Georgia Car Crash Guide provides educational legal information, not legal advice. This site does not create an attorney-client relationship.",
   openGraph: {
     title: "Legal Disclaimer",
     description: "Educational content only. Not legal advice.",
-    url: "https://dominant.law/contact",
+    url: "https://www.georgiacarcrashguide.com/contact",
   },
 };
 
@@ -19,7 +19,7 @@ export default function Contact() {
         <h1>Legal Disclaimer</h1>
 
         <p className="lead">
-          Georgia Law Guide provides educational legal information only. Nothing on this site constitutes legal advice, and using this site does not create an attorney-client relationship.
+          Georgia Car Crash Guide provides educational legal information only. Nothing on this site constitutes legal advice, and using this site does not create an attorney-client relationship.
         </p>
 
         <h2>What This Site Is</h2>

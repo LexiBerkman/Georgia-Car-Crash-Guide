@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: 'Filing in Richmond County, Georgia',
     description: 'A practical reference for filing civil cases in Richmond County (Augusta), Georgia.',
-    url: 'https://dominant.law/georgia/augusta',
+    url: 'https://www.georgiacarcrashguide.com/georgia/augusta',
   },
 };
 

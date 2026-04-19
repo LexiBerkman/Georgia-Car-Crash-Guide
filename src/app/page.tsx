@@ -3,13 +3,13 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Georgia Law Guide — Your Reference for Georgia Civil Law",
+  title: "Georgia Car Crash Guide — Clear Help After a Georgia Wreck",
   description:
-    "A practical reference for Georgia civil law — how comparative negligence works, statutes of limitation, what to expect in litigation, and how insurance adjusters value claims.",
+    "A practical reference for Georgia car crash claims — what to do after a wreck, how fault works, insurance adjuster tactics, and when deadlines matter.",
   openGraph: {
-    title: "Georgia Law Guide",
-    description: "Georgia civil law explained without the jargon.",
-    url: "https://dominant.law",
+    title: "Georgia Car Crash Guide",
+    description: "Georgia car crash claims explained without the jargon.",
+    url: "https://www.georgiacarcrashguide.com",
   },
 };
 
@@ -52,10 +52,10 @@ export default function Home() {
     <div className="home-page">
       <section className="hero">
         <div className="hero-copy hero-copy-main">
-          <p className="eyebrow">Georgia Law Guide | Civil Reference</p>
-          <h1>Georgia civil law, explained clearly. No attorney-client relationship required.</h1>
+          <p className="eyebrow">Georgia Car Crash Guide | Crash Claim Reference</p>
+          <h1>Georgia car crash claims, explained clearly.</h1>
           <p className="hero-lead">
-            A practical reference for plaintiffs, small businesses, and self-represented litigants navigating Georgia courts. Understand your rights, deadlines, and the process before you hire counsel.
+            A practical reference for injured drivers, passengers, and families navigating the aftermath of a Georgia wreck. Understand your rights, deadlines, and the insurance process before you make costly mistakes.
           </p>
           <div className="hero-actions">
             <Link className="button button-primary" href="/resources">
@@ -98,7 +98,7 @@ export default function Home() {
             <div className="signal-grid">
               <div>
                 <strong>Educational</strong>
-                <span>Plain-language explanations of Georgia civil law.</span>
+                <span>Plain-language explanations of Georgia car crash claims.</span>
               </div>
               <div>
                 <strong>Not legal advice</strong>
@@ -146,7 +146,7 @@ export default function Home() {
           <p className="eyebrow">Why this guide exists</p>
           <h2>Most people going through Georgia courts have never been in a courtroom before.</h2>
           <p>
-            Georgia civil law is complex, local rules vary by county, and the process is opaque unless you've practiced it. This site exists so that anyone entering the system — as plaintiff, defendant, or self-represented party — can understand the terrain before they hire counsel.
+            Georgia crash claims move fast, insurance companies move strategically, and most people have never handled a serious injury case before. This site exists so injured Georgians can understand the terrain early and make better decisions from day one.
           </p>
         </article>
         <article className="editorial-quote">

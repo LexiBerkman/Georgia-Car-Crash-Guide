@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "Frequently Asked Questions",
     description: "Georgia civil law answers without the jargon.",
-    url: "https://dominant.law/faq",
+    url: "https://www.georgiacarcrashguide.com/faq",
   },
 };
 

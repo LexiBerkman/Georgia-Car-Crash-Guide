@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: 'Filing in Fulton County, Georgia',
     description: 'A practical reference for filing civil cases in Fulton County State Court.',
-    url: 'https://dominant.law/georgia/atlanta',
+    url: 'https://www.georgiacarcrashguide.com/georgia/atlanta',
   },
 };
 

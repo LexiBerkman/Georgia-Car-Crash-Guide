@@ -2,13 +2,13 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Personal Injury in Georgia — Georgia Law Guide",
+  title: "Personal Injury in Georgia — Georgia Car Crash Guide",
   description:
     "How personal injury claims work in Georgia courts: comparative negligence, statutes of limitation, damages, and what to expect from litigation.",
   openGraph: {
     title: "Personal Injury in Georgia",
     description: "A practical guide to Georgia personal injury law.",
-    url: "https://dominant.law/resources/how-insurance-adjusters-value-claims",
+    url: "https://www.georgiacarcrashguide.com/resources/how-insurance-adjusters-value-claims",
   },
 };
 

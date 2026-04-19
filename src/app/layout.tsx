@@ -9,8 +9,8 @@ const interTight = Inter_Tight({
 });
 
 export const metadata = {
-  title: "Georgia Law Guide",
-  description: "A practical reference for Georgia civil law — comparative negligence, statutes of limitation, litigation stages, and insurance claims.",
+  title: "Georgia Car Crash Guide",
+  description: "A practical reference for Georgia car crash claims — fault, deadlines, insurance tactics, and what to expect in a Georgia injury case.",
   robots: "index, follow",
   icons: {
     icon: "/favicon.ico",
@@ -41,8 +41,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link className="wordmark" href="/">
                 <span className="wordmark-mark">GL</span>
                 <span className="wordmark-copy">
-                  <strong>Georgia Law Guide</strong>
-                  <span>Civil law reference for plaintiffs and self-represented litigants</span>
+                  <strong>Georgia Car Crash Guide</strong>
+                  <span>Plain-language crash claim guidance for Georgia drivers and families</span>
                 </span>
               </Link>
               <nav aria-label="Primary">
@@ -63,9 +63,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <footer className="site-footer">
             <div className="footer-grid">
               <div>
-                <p className="footer-kicker">Georgia Law Guide</p>
+                <p className="footer-kicker">Georgia Car Crash Guide</p>
                 <p>
-                  Educational reference for Georgia civil law. Not legal advice. Does not create an attorney-client relationship.
+                  Educational reference for Georgia car crash claims. Not legal advice. Does not create an attorney-client relationship.
                 </p>
               </div>
               <div>
@@ -84,7 +84,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </p>
               </div>
             </div>
-            <p className="footer-meta">© 2026 Georgia Law Guide. Educational purposes only. Not legal advice.</p>
+            <p className="footer-meta">© 2026 Georgia Car Crash Guide. Educational purposes only. Not legal advice.</p>
           </footer>
         </div>
       </body>

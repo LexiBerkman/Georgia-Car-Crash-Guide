@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://dominant.law';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.georgiacarcrashguide.com';
   const routes = [
     '',
     'practice-areas',

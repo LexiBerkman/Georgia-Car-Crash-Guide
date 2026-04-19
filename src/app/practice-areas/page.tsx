@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "Practice Areas",
     description: "Types of civil claims in Georgia courts.",
-    url: "https://dominant.law/practice-areas",
+    url: "https://www.georgiacarcrashguide.com/practice-areas",
   },
 };
 

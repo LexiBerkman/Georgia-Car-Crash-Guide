@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: 'How to Value Your Own Georgia PI Claim',
     description: 'Settlement math for Georgia injury claimants without an attorney.',
-    url: 'https://dominant.law/resources/settlement-value-claim-georgia',
+    url: 'https://www.georgiacarcrashguide.com/resources/settlement-value-claim-georgia',
   },
 };
 

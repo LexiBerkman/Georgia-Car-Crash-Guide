@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'How to Write a Demand Letter to an Insurance Company',
     description: 'Practical guide to writing and sending a settlement demand letter in Georgia.',
-    url: 'https://dominant.law/resources/demand-letter-insurance-georgia',
+    url: 'https://www.georgiacarcrashguide.com/resources/demand-letter-insurance-georgia',
   },
 };
 

@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: 'Filing in Chatham County, Georgia',
     description: 'A practical reference for filing civil cases in Chatham County (Savannah), Georgia.',
-    url: 'https://dominant.law/georgia/savannah',
+    url: 'https://www.georgiacarcrashguide.com/georgia/savannah',
   },
 };
 

@@ -2,13 +2,13 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Legal Guides & Resources — Georgia Law Guide",
+  title: "Legal Guides & Resources — Georgia Car Crash Guide",
   description:
     "Practical guides to Georgia civil law: how insurance claims are valued, litigation stages, expert witnesses, and what to expect in Georgia courts.",
   openGraph: {
     title: "Legal Guides & Resources",
     description: "Plain-language guides to Georgia civil law.",
-    url: "https://dominant.law/resources",
+    url: "https://www.georgiacarcrashguide.com/resources",
   },
 };
 

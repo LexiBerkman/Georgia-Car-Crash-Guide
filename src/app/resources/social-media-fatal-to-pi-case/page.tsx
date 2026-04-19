@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: 'Why Social Media Can Be Fatal to Your PI Case',
     description: 'How insurance adjusters and defense attorneys weaponize your social media posts against you.',
-    url: 'https://dominant.law/resources/social-media-fatal-to-pi-case',
+    url: 'https://www.georgiacarcrashguide.com/resources/social-media-fatal-to-pi-case',
   },
 };
 
