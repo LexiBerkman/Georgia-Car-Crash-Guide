@@ -33,7 +33,7 @@ export default function HowInsuranceAdjustersValueClaims() {
           Adjusters are good at adding line items when the paperwork is complete: hospital bills, therapy records, pharmacy costs, repair estimates, rental receipts, towing invoices, and wage documents.
         </p>
         <p>
-          They also compare claims by county, vehicle damage, treatment length, injury type, and jury risk. A Fulton County intersection wreck and a rural rear-end crash with the same medical bills may be evaluated differently.
+          They also compare claims by vehicle damage, treatment length, injury type, policy limits, prior medical history, and how cleanly the records connect the injuries to the wreck.
         </p>
 
         <h2 id="where-lowball">Where Adjusters Push the Number Down</h2>

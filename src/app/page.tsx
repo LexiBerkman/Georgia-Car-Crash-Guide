@@ -35,7 +35,7 @@ const crashGuides = [
     items: [
       { title: "Rear-end and intersection wrecks", href: "/practice-areas" },
       { title: "Trucks, rideshare, and commercial vehicles", href: "/practice-areas" },
-      { title: "Atlanta, Augusta, and Savannah crash venues", href: "/georgia/atlanta" },
+      { title: "Uninsured and underinsured drivers", href: "/practice-areas" },
     ],
   },
 ];
@@ -113,7 +113,7 @@ export default function Home() {
               </div>
               <div>
                 <strong>Georgia rules apply</strong>
-                <span>Fault percentages, venue, and deadlines can change the value of the claim.</span>
+                <span>Fault percentages, deadlines, and policy limits can change the value of the claim.</span>
               </div>
             </div>
           </div>
@@ -160,12 +160,12 @@ export default function Home() {
         </article>
         <article className="editorial-quote">
           <Image
-            src="/fulton-courthouse.jpg"
-            alt="Fulton County courthouse, a common venue for Georgia car crash lawsuits"
+            src="/editorial-books.jpg"
+            alt="Organized legal and insurance paperwork for a Georgia car crash claim"
             width={960}
             height={760}
           />
-          <span>Georgia crash claims can turn on evidence, venue, and timing.</span>
+          <span>Georgia crash claims can turn on records, timing, and consistency.</span>
         </article>
       </section>
 
@@ -211,10 +211,11 @@ export default function Home() {
 
       <section className="feature-banner">
         <div>
-          <p className="eyebrow">Georgia venue guides</p>
-          <h2>Crash claims feel different in Atlanta, Augusta, and Savannah.</h2>
+          <p className="eyebrow">Build the claim file</p>
+          <h2>The paperwork is the leverage.</h2>
           <p>
-            Local court expectations, traffic patterns, jury pools, and insurer habits can affect how a claim is evaluated.
+            A clear file makes the insurer's job harder to minimize: police report, photos, medical records,
+            bills, wage proof, repair estimates, rental receipts, and a timeline of every adjuster contact.
           </p>
         </div>
         <div className="feature-art">
@@ -227,9 +228,9 @@ export default function Home() {
           />
         </div>
         <div className="feature-links">
-          <Link href="/georgia/atlanta">Atlanta crashes</Link>
-          <Link href="/georgia/augusta">Augusta crashes</Link>
-          <Link href="/georgia/savannah">Savannah crashes</Link>
+          <Link href="/faq">Crash checklist</Link>
+          <Link href="/resources/settlement-value-claim-georgia">Settlement value</Link>
+          <Link href="/resources/demand-letter-insurance-georgia">Demand letters</Link>
         </div>
       </section>
 

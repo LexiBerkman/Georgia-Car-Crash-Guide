@@ -12,9 +12,6 @@ export async function GET() {
     'resources/social-media-fatal-to-pi-case',
     'resources/how-insurance-adjusters-value-claims',
     'faq',
-    'georgia/atlanta',
-    'georgia/savannah',
-    'georgia/augusta',
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

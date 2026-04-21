@@ -33,8 +33,8 @@ const areas = [
     title: "Truck and Commercial Vehicle Crashes",
     desc: "Commercial crashes can involve the driver, employer, maintenance company, broker, cargo loading, and higher insurance layers. Evidence preservation matters immediately.",
     links: [
-      { label: "Atlanta crash venue guide", href: "/georgia/atlanta" },
-      { label: "Savannah crash venue guide", href: "/georgia/savannah" },
+      { label: "Insurance valuation", href: "/resources/how-insurance-adjusters-value-claims" },
+      { label: "Demand letter guide", href: "/resources/demand-letter-insurance-georgia" },
     ],
   },
   {

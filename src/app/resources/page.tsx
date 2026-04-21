@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Georgia Car Crash Guides & Resources",
   description:
-    "Georgia car crash resources for insurance claims, settlement value, demand letters, social media evidence, and local crash venues.",
+    "Georgia car crash resources for insurance claims, settlement value, demand letters, social media evidence, medical proof, and vehicle damage.",
   openGraph: {
     title: "Georgia Car Crash Guides",
     description: "Plain-language guides for Georgia wreck claims.",
@@ -54,22 +54,22 @@ const guides = [
     ],
   },
   {
-    category: "Georgia Locations",
+    category: "Crash Claim Problems",
     items: [
       {
-        title: "Atlanta Car Crash Claims",
-        href: "/georgia/atlanta",
-        desc: "Fulton County and metro Atlanta crash issues: traffic corridors, venue, police reports, and insurer expectations.",
+        title: "Georgia Car Crash Claim Types",
+        href: "/practice-areas",
+        desc: "Rear-end, intersection, commercial vehicle, rideshare, pedestrian, motorcycle, and UM/UIM claim issues.",
       },
       {
-        title: "Augusta Car Crash Claims",
-        href: "/georgia/augusta",
-        desc: "Richmond County crash claims, medical documentation, military-area traffic, and local court considerations.",
+        title: "Recorded Statements and Adjuster Calls",
+        href: "/faq",
+        desc: "What to watch for when the insurer calls early, asks for a recorded statement, or pushes for a quick settlement.",
       },
       {
-        title: "Savannah Car Crash Claims",
-        href: "/georgia/savannah",
-        desc: "Chatham County wreck claims, tourism traffic, port-related vehicles, and coastal Georgia filing considerations.",
+        title: "Policy Limits and UM/UIM Coverage",
+        href: "/faq",
+        desc: "How Georgia minimum limits, uninsured drivers, and your own underinsured motorist coverage can shape recovery.",
       },
     ],
   },
@@ -82,7 +82,7 @@ export default function Resources() {
       <h1 style={{ marginTop: "0.5rem", marginBottom: "1rem" }}>Georgia Car Crash Resources</h1>
       <p style={{ color: "var(--muted)", lineHeight: 1.7, marginBottom: "3rem", maxWidth: "54rem" }}>
         Focused help for the practical problems that follow a Georgia wreck: insurance calls, medical documentation,
-        repair claims, lost wages, comparative fault, demand letters, and local venue questions.
+        repair claims, lost wages, comparative fault, policy limits, and demand letters.
       </p>
 
       {guides.map((group) => (

@@ -15,7 +15,6 @@ const navItems = [
   { href: "/resources", label: "Guides" },
   { href: "/practice-areas", label: "Crash Types" },
   { href: "/faq", label: "FAQ" },
-  { href: "/georgia/atlanta", label: "Cities" },
   { href: "/contact", label: "Disclaimer" },
 ];
 
@@ -58,7 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="footer-grid">
               <div>
                 <p className="footer-kicker">Georgia Car Crash Guide</p>
-              <p>
+                <p>
                   Educational reference for Georgia car crash claims, insurance disputes, vehicle damage, injury documentation, and settlement demands. Not legal advice.
                 </p>
               </div>
