@@ -27,7 +27,7 @@ const sources = [
   ["The Insurer — Court Orders State Farm to Pay $54.6 Million Over Vehicle Valuations", "https://www.theinsurer.com/ti/news/court-orders-state-farm-to-pay-546-million-over-vehicle-valuations-with-jury-2025-08-06/"],
   ["Top Class Actions — Washington State Farm Personal Injury Denial Class Action Settlement", "https://topclassactions.com/lawsuit-settlements/closed-settlements/washington-state-farm-personal-injury-denial-class-action-settlement/"],
   ["Property Insurance Coverage Law Blog — State Farm Paid McKinsey $84 Million", "https://www.propertyinsurancecoveragelaw.com/2023/01/articles/insurance/state-farm-paid-mckinsey-84-million-in-two-years/"],
-  ["Jay M. Feinman, Delay, Deny, Defend", "https://global.oup.com/academic/product/delay-deny-defend-9781591843153"],
+  ["Jay M. Feinman, Delay, Deny, Defend", "https://www.amazon.com/Delay-Deny-Defend-Insurance-Companies/dp/B0DSJXZWHH/ref=sr_1_1?crid=3UDXVW094DM76&dib=eyJ2IjoiMSJ9.mwpnelaY_vwy8jQDyBmezcPmo1LHE8JCyagaejRV3jU.it9ae1nAKWp9AWEh_Wp-I30mzTwWz8NDI-uTGLqpRpI&dib_tag=se&keywords=Jay+M.+Feinman%2C+Delay%2C+Deny%2C+Defend&qid=1776785876&sprefix=jay+m.+feinman%2C+delay%2C+deny%2C+defend%2Caps%2C116&sr=8-1"],
   ["State Farm 2025 Annual Report", "https://www.statefarm.com/content/dam/sf-library/en-us/secure/legacy/pdf/2025-annual-report.pdf"],
 ];
 
