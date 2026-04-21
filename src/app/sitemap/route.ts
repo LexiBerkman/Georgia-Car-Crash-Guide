@@ -11,6 +11,7 @@ export async function GET() {
     'resources/demand-letter-insurance-georgia',
     'resources/social-media-fatal-to-pi-case',
     'resources/how-insurance-adjusters-value-claims',
+    'resources/um-bad-faith-georgia',
     'faq',
   ];
 

@@ -31,6 +31,11 @@ const guides = [
         href: "/resources/demand-letter-insurance-georgia",
         desc: "What to include, what exhibits to attach, how to set a deadline, and how to negotiate after the insurer responds.",
       },
+      {
+        title: "Georgia UM Bad Faith: When Your Own Insurer Low-Balls You",
+        href: "/resources/um-bad-faith-georgia",
+        desc: "Why uninsured motorist claims can turn adversarial, how Blazys v. McKnight changed the leverage, and what Georgia bad faith remedies still exist.",
+      },
     ],
   },
   {

@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  metadataBase: new URL("https://georgia-car-crash-guide.vercel.app"),
   title: "Georgia Car Crash Guide",
   description: "A practical Georgia car crash reference covering wreck steps, insurance claims, fault, deadlines, property damage, and settlement demands.",
   robots: "index, follow",

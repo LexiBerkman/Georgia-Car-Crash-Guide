@@ -57,8 +57,8 @@ const areas = [
     title: "Uninsured and Underinsured Drivers",
     desc: "When the at-fault driver has no coverage or minimum limits, your own UM/UIM coverage can become the practical source of recovery. Treat it like a real claim, not a friendly favor.",
     links: [
+      { label: "UM bad faith in Georgia", href: "/resources/um-bad-faith-georgia" },
       { label: "Demand letter guide", href: "/resources/demand-letter-insurance-georgia" },
-      { label: "Crash FAQ", href: "/faq" },
     ],
   },
 ];
