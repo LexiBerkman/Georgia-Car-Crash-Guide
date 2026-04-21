@@ -1,16 +1,10 @@
 import "./globals.css";
 import React from "react";
 import Link from "next/link";
-import { Inter_Tight } from "next/font/google";
-
-const interTight = Inter_Tight({
-  subsets: ["latin"],
-  variable: "--font-display",
-});
 
 export const metadata = {
   title: "Georgia Car Crash Guide",
-  description: "A practical reference for Georgia car crash claims — fault, deadlines, insurance tactics, and what to expect in a Georgia injury case.",
+  description: "A practical Georgia car crash reference covering wreck steps, insurance claims, fault, deadlines, property damage, and settlement demands.",
   robots: "index, follow",
   icons: {
     icon: "/favicon.ico",
@@ -19,20 +13,20 @@ export const metadata = {
 
 const navItems = [
   { href: "/resources", label: "Guides" },
-  { href: "/practice-areas", label: "Claim Types" },
+  { href: "/practice-areas", label: "Crash Types" },
   { href: "/faq", label: "FAQ" },
-  { href: "/georgia/atlanta", label: "Georgia Courts" },
+  { href: "/georgia/atlanta", label: "Cities" },
   { href: "/contact", label: "Disclaimer" },
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={interTight.variable}>
+      <body>
         <div className="site-shell">
           <header className="site-header">
             <div className="topbar">
-              <span>Georgia civil law explained clearly</span>
+              <span>Georgia car crash claims explained clearly</span>
               <div className="topbar-links">
                 <span>Educational reference — not legal advice</span>
               </div>
@@ -42,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <span className="wordmark-mark">GL</span>
                 <span className="wordmark-copy">
                   <strong>Georgia Car Crash Guide</strong>
-                  <span>Plain-language crash claim guidance for Georgia drivers and families</span>
+                  <span>Wreck claims, insurance, fault, deadlines, and settlement basics</span>
                 </span>
               </Link>
               <nav aria-label="Primary">
@@ -64,16 +58,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="footer-grid">
               <div>
                 <p className="footer-kicker">Georgia Car Crash Guide</p>
-                <p>
-                  Educational reference for Georgia car crash claims. Not legal advice. Does not create an attorney-client relationship.
+              <p>
+                  Educational reference for Georgia car crash claims, insurance disputes, vehicle damage, injury documentation, and settlement demands. Not legal advice.
                 </p>
               </div>
               <div>
                 <p className="footer-kicker">Key Topics</p>
                 <p>
-                  <Link href="/faq">Georgia PI claims</Link><br />
-                  <Link href="/faq">Statute of limitations</Link><br />
-                  <Link href="/faq">Expert witnesses</Link>
+                  <Link href="/faq">After-crash checklist</Link><br />
+                  <Link href="/resources/how-insurance-adjusters-value-claims">Insurance adjusters</Link><br />
+                  <Link href="/resources/settlement-value-claim-georgia">Settlement value</Link>
                 </p>
               </div>
               <div>

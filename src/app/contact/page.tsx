@@ -24,7 +24,7 @@ export default function Contact() {
 
         <h2>What This Site Is</h2>
         <p>
-          This site explains how Georgia civil law works in plain language: statutes of limitation, comparative negligence rules, discovery process, expert witness requirements, and litigation stages. It is intended for informational purposes for plaintiffs, self-represented litigants, and members of the general public who want to understand the legal system before engaging counsel.
+          This site explains Georgia car crash claim issues in plain language: crash documentation, insurance claims, comparative fault, medical proof, property damage, UM/UIM coverage, settlement demands, and lawsuit deadlines. It is intended for informational purposes for drivers, passengers, families, and members of the general public.
         </p>
 
         <h2>What This Site Is Not</h2>
@@ -34,7 +34,7 @@ export default function Contact() {
 
         <h2>Finding an Attorney</h2>
         <p>
-          If you have an active legal matter, we recommend seeking a licensed Georgia attorney who practices in the relevant area of civil law. The State Bar of Georgia maintains a{" "}
+          If you have an active crash claim, serious injuries, disputed fault, or a lawsuit deadline approaching, seek a licensed Georgia attorney who handles car crash and injury matters. The State Bar of Georgia maintains a{" "}
           <a href="https://www.gabar.org" target="_blank" rel="noopener noreferrer">
             attorney referral directory
           </a>

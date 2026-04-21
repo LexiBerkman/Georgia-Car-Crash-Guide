@@ -1,13 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export const metadata = {
-  title: 'Why Social Media Can Be Fatal to Your Personal Injury Case',
-  description: 'How insurance adjusters and defense attorneys weaponize your social media posts against you — and what to do before it destroys your claim.',
+  title: 'Why Social Media Can Damage Your Georgia Car Crash Claim',
+  description: 'How insurance adjusters and defense attorneys use social media posts after a Georgia wreck — and what to do before it damages your claim.',
   openGraph: {
-    title: 'Why Social Media Can Be Fatal to Your PI Case',
-    description: 'How insurance adjusters and defense attorneys weaponize your social media posts against you.',
+    title: 'Why Social Media Can Damage Your Crash Claim',
+    description: 'How insurance adjusters and defense attorneys use posts after a wreck.',
     url: 'https://www.georgiacarcrashguide.com/resources/social-media-fatal-to-pi-case',
   },
 };
@@ -17,7 +16,7 @@ export default function SocialMediaPICase() {
     <main className="container">
       <article className="article-content">
         <p className="eyebrow">Evidence & Discovery</p>
-        <h1>Why Social Media Can Be Fatal to Your Personal Injury Case</h1>
+        <h1>Why Social Media Can Damage Your Georgia Car Crash Claim</h1>
 
         <figure className="article-hero">
           <Image
@@ -31,12 +30,12 @@ export default function SocialMediaPICase() {
         </figure>
 
         <p className="lead">
-          Your personal injury claim is built on one thing above all else: credibility. If a jury or an adjuster stops believing you, the case dies. Social media is the most efficient way to destroy your own credibility — and most claimants do it without knowing the damage is already done.
+          A Georgia crash claim is built on credibility. If an adjuster, defense lawyer, or jury stops believing the injury story, the value drops. Social media is one of the easiest ways to create confusion about pain, activity limits, work capacity, and recovery.
         </p>
 
         <h2>The Defense Does Not Guess — They Hunt</h2>
         <p>
-          Insurance defense teams do not wait for trial to look at your social media. The moment you file a claim, they assign someone to build a timeline of every public post, every tagged photo, every check-in. This is standard practice. It is not invasive. It is not illegal. It is their job.
+          Insurance defense teams do not wait for trial to look at your social media. The moment a claim appears serious, they may build a timeline of public posts, tagged photos, comments, and check-ins.
         </p>
         <p>
           Defense attorneys have specific language they train adjusters to use: <em>"plaintiff's social media is inconsistent with claimed injuries."</em> That phrase alone can drop a six-figure demand to a nuisance-value offer.
@@ -44,7 +43,7 @@ export default function SocialMediaPICase() {
 
         <h2>What They Look For</h2>
         <ul>
-          <li><strong>Activities that contradict your injury narrative.</strong> A hiker who claimed a broken back but posted a hiking photo from two months ago. A back-injury claimant who was photographed moving furniture the week before trial.</li>
+          <li><strong>Activities that appear to contradict your injury narrative.</strong> A back-injury claimant photographed lifting furniture, traveling, hiking, dancing, or playing sports can face hard questions even when the post lacks context.</li>
           <li><strong>Geographic evidence of mobility.</strong> Check-ins at locations, timestamps, and photos that place you places inconsistent with your claimed limitations.</li>
           <li><strong>Income and lifestyle evidence.</strong> Posts that suggest you're earning more than you've claimed, or living a lifestyle that contradicts your economic loss calculations.</li>
           <li><strong>Character evidence.</strong> Anything that paints you as less credible, less sympathetic, or less injured than your testimony suggests.</li>
@@ -90,7 +89,7 @@ export default function SocialMediaPICase() {
 
         <h2>The Bottom Line</h2>
         <p>
-          Social media is not your friend in a personal injury case. It is a permanent, searchable, timestamped record that defense teams are legally empowered to use against you. The claim that dies in discovery because of an ill-timed Instagram post is a claim that should have been worth real money.
+          Social media is not your friend in a car crash claim. It is a searchable, timestamped record that can be used to challenge injuries, damages, and credibility.
         </p>
         <p>
           If you have already posted and you are worried about what is out there — the situation is manageable. The first step is understanding what is publicly accessible and how a defense team might frame it. A Georgia attorney can give you a candid assessment of your exposure before you say anything that makes the situation worse.

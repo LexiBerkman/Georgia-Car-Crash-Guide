@@ -24,7 +24,7 @@ export default function DemandLetter() {
 
         <h2>Before You Write — Know Your Number</h2>
         <p>
-          Do not write a demand letter until you have completed the valuation process. Read <Link href="/resources/settlement-value-claim-georgia">How to Value Your Own Georgia Personal Injury Claim</Link> first. Your demand letter needs to state a specific number, backed by documentation. Going in without a number — or without documentation — weakens your position significantly.
+          Do not write a demand letter until you have completed the valuation process. Read <Link href="/resources/settlement-value-claim-georgia">How to Value Your Georgia Car Crash Settlement</Link> first. Your demand letter needs to state a specific number, backed by documentation. Going in without a number — or without documentation — weakens your position significantly.
         </p>
         <p>
           You also need to know the at-fault driver's <strong>policy limits</strong>. The demand cannot exceed those limits unless you are also pursuing a UIM claim with your own insurer.

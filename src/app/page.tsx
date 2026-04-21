@@ -3,48 +3,55 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Georgia Car Crash Guide — Clear Help After a Georgia Wreck",
+  title: "Georgia Car Crash Guide — What to Do After a Georgia Wreck",
   description:
-    "A practical reference for Georgia car crash claims — what to do after a wreck, how fault works, insurance adjuster tactics, and when deadlines matter.",
+    "A practical Georgia car crash guide covering wreck steps, insurance claims, fault, injuries, property damage, deadlines, and settlement demands.",
   openGraph: {
     title: "Georgia Car Crash Guide",
-    description: "Georgia car crash claims explained without the jargon.",
+    description: "Georgia car crash claims explained clearly, from the scene to settlement.",
     url: "https://www.georgiacarcrashguide.com",
   },
 };
 
-const guides = [
+const crashGuides = [
   {
-    category: "Understanding Your Claim",
+    category: "Right After the Wreck",
     items: [
-      { title: "How Insurance Adjusters Value Injury Claims", href: "/resources/how-insurance-adjusters-value-claims" },
-      { title: "Stages of a Georgia Civil Case", href: "/resources/georgia-civil-litigation-stages" },
-      { title: "Expert Witnesses in Georgia Courts", href: "/resources/expert-witnesses-georgia" },
+      { title: "Crash checklist and evidence", href: "/faq" },
+      { title: "Georgia fault and police reports", href: "/faq" },
+      { title: "What not to say to insurers", href: "/resources/how-insurance-adjusters-value-claims" },
     ],
   },
   {
-    category: "Georgia Civil Litigation",
+    category: "Insurance and Money",
     items: [
-      { title: "How Insurance Adjusters Value Injury Claims", href: "/resources/how-insurance-adjusters-value-claims" },
-      { title: "Stages of a Georgia Civil Case", href: "/resources/georgia-civil-litigation-stages" },
-      { title: "Filing in Fulton vs. Richmond vs. Chatham County", href: "/resources/fulton-vs-richmond-courts" },
+      { title: "How adjusters value crash claims", href: "/resources/how-insurance-adjusters-value-claims" },
+      { title: "Estimate your Georgia settlement range", href: "/resources/settlement-value-claim-georgia" },
+      { title: "Write an auto insurance demand letter", href: "/resources/demand-letter-insurance-georgia" },
     ],
   },
   {
-    category: "By Claim Type",
+    category: "Georgia Crash Claims",
     items: [
-      { title: "Personal Injury in Georgia", href: "/practice-areas" },
-      { title: "Wrongful Death Claims in Georgia", href: "/faq" },
-      { title: "Business and Contract Disputes in Georgia", href: "/faq" },
+      { title: "Rear-end and intersection wrecks", href: "/practice-areas" },
+      { title: "Trucks, rideshare, and commercial vehicles", href: "/practice-areas" },
+      { title: "Atlanta, Augusta, and Savannah crash venues", href: "/georgia/atlanta" },
     ],
   },
 ];
 
 const quickReference = [
-  { term: "PI Statute of Limitations", def: "2 years from the date of injury in Georgia." },
-  { term: "Property Damage", def: "4 years from the date of damage." },
-  { term: "Contract claims", def: "6 years under Georgia law." },
-  { term: "Modified comparative negligence", def: "GA bars recovery when plaintiff is 50% or more at fault." },
+  { term: "Injury deadline", def: "Most Georgia injury lawsuits must be filed within 2 years." },
+  { term: "Fault rule", def: "Recovery is barred if you are 50% or more at fault." },
+  { term: "Minimum liability", def: "Georgia minimum auto liability limits are 25/50/25." },
+  { term: "First call", def: "Report the wreck, get medical care, and preserve evidence early." },
+];
+
+const steps = [
+  "Call 911, get the crash report number, and document the scene.",
+  "Get medical care quickly, even if pain worsens over the next day.",
+  "Notify insurers, but avoid recorded statements until you understand the claim.",
+  "Track bills, lost wages, repairs, rental costs, and every adjuster contact.",
 ];
 
 export default function Home() {
@@ -52,31 +59,31 @@ export default function Home() {
     <div className="home-page">
       <section className="hero">
         <div className="hero-copy hero-copy-main">
-          <p className="eyebrow">Georgia Car Crash Guide | Crash Claim Reference</p>
-          <h1>Georgia car crash claims, explained clearly.</h1>
+          <p className="eyebrow">Georgia Car Crash Guide</p>
+          <h1>What to do after a car crash in Georgia.</h1>
           <p className="hero-lead">
-            A practical reference for injured drivers, passengers, and families navigating the aftermath of a Georgia wreck. Understand your rights, deadlines, and the insurance process before you make costly mistakes.
+            A focused guide for Georgia drivers, passengers, and families dealing with wrecks, injuries,
+            insurance adjusters, repair bills, lost wages, and the decisions that follow a serious crash.
           </p>
           <div className="hero-actions">
-            <Link className="button button-primary" href="/resources">
-              Browse all guides
+            <Link className="button button-primary" href="/faq">
+              Start with the checklist
             </Link>
-            <Link className="button button-secondary" href="/faq">
-              Common questions
+            <Link className="button button-secondary" href="/resources">
+              Browse crash guides
             </Link>
           </div>
           <div className="hero-badges">
-            <span>Personal injury</span>
-            <span>Wrongful death</span>
-            <span>Business disputes</span>
-            <span>Contract claims</span>
+            <span>Auto insurance</span>
+            <span>Georgia fault rules</span>
+            <span>Settlement demands</span>
           </div>
         </div>
         <aside className="hero-stack">
           <div className="hero-image-frame">
             <Image
               src="/georgia-courthouse-hero.jpg"
-              alt="Georgia courthouse exterior with classical columns and stone steps"
+              alt="Georgia courthouse exterior, representing Georgia car crash claims and legal deadlines"
               width={1200}
               height={960}
               priority
@@ -84,7 +91,7 @@ export default function Home() {
             />
           </div>
           <div className="hero-panel hero-panel-primary">
-            <p className="panel-kicker">Quick reference — act fast</p>
+            <p className="panel-kicker">Quick reference</p>
             <ul className="advantage-list">
               {quickReference.map((item) => (
                 <li key={item.term}>
@@ -94,19 +101,19 @@ export default function Home() {
             </ul>
           </div>
           <div className="signal-card">
-            <p className="panel-kicker">What this site is</p>
+            <p className="panel-kicker">Keep this close</p>
             <div className="signal-grid">
               <div>
-                <strong>Educational</strong>
-                <span>Plain-language explanations of Georgia car crash claims.</span>
+                <strong>Evidence fades</strong>
+                <span>Photos, witnesses, dashcam footage, and repair records matter early.</span>
               </div>
               <div>
-                <strong>Not legal advice</strong>
-                <span>Use the site to understand. Hire an attorney for your case.</span>
+                <strong>Insurers move fast</strong>
+                <span>The first adjuster call is about information control, not just customer service.</span>
               </div>
               <div>
-                <strong>Referral-friendly</strong>
-                <span>Sharing attorney-free information builds trust and credibility.</span>
+                <strong>Georgia rules apply</strong>
+                <span>Fault percentages, venue, and deadlines can change the value of the claim.</span>
               </div>
             </div>
           </div>
@@ -115,64 +122,81 @@ export default function Home() {
 
       <section className="ticker-band" aria-label="Topic areas">
         <div className="ticker-track">
-          <span>Georgia civil law</span>
-          <span>Personal injury</span>
-          <span>Comparative negligence</span>
-          <span>Wrongful death</span>
-          <span>Business litigation</span>
-          <span>Statute of limitations</span>
-          <span>Expert witnesses</span>
-          <span>Discovery rules</span>
+          <span>Rear-end crashes</span>
+          <span>Intersection wrecks</span>
+          <span>Truck collisions</span>
+          <span>Uninsured drivers</span>
+          <span>Medical bills</span>
+          <span>Rental cars</span>
+          <span>Lost wages</span>
+          <span>Georgia deadlines</span>
         </div>
       </section>
 
       <section className="stats-band" aria-label="Key facts">
         <div className="stat-card">
           <strong>2 years</strong>
-          <span>PI statute of limitations</span>
-        </div>
-        <div className="stat-card">
-          <strong>4 years</strong>
-          <span>Property damage window</span>
+          <span>Typical injury lawsuit deadline</span>
         </div>
         <div className="stat-card">
           <strong>50%</strong>
-          <span>Fault threshold bars recovery</span>
+          <span>Fault threshold that can bar recovery</span>
+        </div>
+        <div className="stat-card">
+          <strong>25/50/25</strong>
+          <span>Georgia minimum auto liability coverage</span>
         </div>
       </section>
 
       <section className="editorial-grid">
         <article className="editorial-callout">
-          <p className="eyebrow">Why this guide exists</p>
-          <h2>Most people going through Georgia courts have never been in a courtroom before.</h2>
+          <p className="eyebrow">The first week matters</p>
+          <h2>A Georgia wreck claim is built before anyone says “settlement.”</h2>
           <p>
-            Georgia crash claims move fast, insurance companies move strategically, and most people have never handled a serious injury case before. This site exists so injured Georgians can understand the terrain early and make better decisions from day one.
+            The strongest crash claims usually have ordinary paperwork behind them: a police report,
+            medical records that connect the injuries to the wreck, photos, repair estimates, wage proof,
+            and a clean timeline of every insurer conversation.
           </p>
         </article>
         <article className="editorial-quote">
           <Image
-            src="/editorial-scales.jpg"
-            alt="Scales of justice in a courthouse, Georgia civil law"
+            src="/fulton-courthouse.jpg"
+            alt="Fulton County courthouse, a common venue for Georgia car crash lawsuits"
             width={960}
             height={760}
           />
-          <span>Justice equally applied — Georgia courts</span>
+          <span>Georgia crash claims can turn on evidence, venue, and timing.</span>
         </article>
       </section>
 
       <section className="split-section">
         <div className="section-intro">
-          <p className="eyebrow">Subject guides</p>
-          <h2>Start with what applies to your situation. Everything else can wait.</h2>
+          <p className="eyebrow">Start here</p>
+          <h2>Handle the practical pieces in the right order.</h2>
           <p>
-            Each guide covers a focused topic: how the law works, what it means in practice, and where to go deeper.
+            You do not need to solve the whole claim on day one. You do need to avoid giving away evidence,
+            missing deadlines, or accepting a number before the damages are known.
           </p>
         </div>
         <div className="practice-grid">
-          {guides.map((group) => (
+          {steps.map((step, index) => (
+            <article className="practice-card" key={step}>
+              <span className="practice-index">Step {index + 1}</span>
+              <h3>{step}</h3>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="process-section">
+        <div className="section-intro">
+          <p className="eyebrow">Crash guides</p>
+          <h2>Focused help for the parts of a Georgia wreck that get expensive.</h2>
+        </div>
+        <div className="practice-grid three-up">
+          {crashGuides.map((group) => (
             <article className="practice-card" key={group.category}>
-              <span className="practice-index">{guides.indexOf(group) + 1}</span>
-              <h3>{group.category}</h3>
+              <span className="practice-index">{group.category}</span>
               <ul className="guide-list">
                 {group.items.map((item) => (
                   <li key={item.title}>
@@ -185,56 +209,38 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="process-section">
-        <div className="section-intro">
-          <p className="eyebrow">Using this guide</p>
-          <h2>This site explains the law. An attorney applies it to your facts.</h2>
-        </div>
-        <div className="process-grid">
-          <article className="process-card">
-            <span className="process-step">Read</span>
-            <p>Understand how Georgia civil law works before you talk to anyone.</p>
-          </article>
-          <article className="process-card">
-            <span className="process-step">Prepare</span>
-            <p>Know the deadlines, rules, and stages so you can ask better questions.</p>
-          </article>
-          <article className="process-card">
-            <span className="process-step">Decide</span>
-            <p>When you're ready to hire counsel, you already understand the landscape.</p>
-          </article>
-        </div>
-      </section>
-
       <section className="feature-banner">
         <div>
-          <p className="eyebrow">Georgia county guides</p>
-          <h2>Local rules vary by county. Know the jurisdiction before you file.</h2>
+          <p className="eyebrow">Georgia venue guides</p>
+          <h2>Crash claims feel different in Atlanta, Augusta, and Savannah.</h2>
+          <p>
+            Local court expectations, traffic patterns, jury pools, and insurer habits can affect how a claim is evaluated.
+          </p>
         </div>
         <div className="feature-art">
           <Image
-            src="/fulton-courthouse.jpg"
-            alt="Fulton County Courthouse, Atlanta Georgia"
+            src="/georgia-courthouse.jpg"
+            alt="Georgia courthouse entrance"
             width={960}
             height={760}
             style={{ objectFit: "cover" }}
           />
         </div>
         <div className="feature-links">
-          <Link href="/georgia/atlanta">Fulton County</Link>
-          <Link href="/georgia/augusta">Richmond County</Link>
-          <Link href="/georgia/savannah">Chatham County</Link>
+          <Link href="/georgia/atlanta">Atlanta crashes</Link>
+          <Link href="/georgia/augusta">Augusta crashes</Link>
+          <Link href="/georgia/savannah">Savannah crashes</Link>
         </div>
       </section>
 
       <section className="cta-block">
         <div>
-          <p className="eyebrow">Not legal advice</p>
-          <h2>This site helps you understand the law. It does not replace an attorney.</h2>
-          <p>If you have an active case or immediate legal needs, consult a licensed Georgia attorney.</p>
+          <p className="eyebrow">Educational only</p>
+          <h2>Use this to get oriented before you talk numbers.</h2>
+          <p>If you have an active case, serious injuries, disputed fault, or a lawsuit deadline approaching, speak with a licensed Georgia attorney.</p>
         </div>
-        <Link className="button button-secondary" href="/resources">
-          Browse all guides
+        <Link className="button button-secondary" href="/resources/demand-letter-builder">
+          Build a demand letter
         </Link>
       </section>
     </div>

@@ -2,47 +2,63 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Practice Areas — Georgia Civil Law",
+  title: "Georgia Car Crash Types — Rear-End, Truck, Rideshare, Pedestrian",
   description:
-    "Types of civil claims handled under Georgia law: personal injury, wrongful death, business disputes, and contract claims.",
+    "Common Georgia car crash claim types: rear-end wrecks, intersection crashes, trucks, rideshare, pedestrians, uninsured drivers, and fatal collisions.",
   openGraph: {
-    title: "Practice Areas",
-    description: "Types of civil claims in Georgia courts.",
+    title: "Georgia Car Crash Types",
+    description: "Crash scenarios and the evidence that usually matters in Georgia.",
     url: "https://www.georgiacarcrashguide.com/practice-areas",
   },
 };
 
 const areas = [
   {
-    title: "Personal Injury",
-    desc: "When someone else's negligence causes physical harm, medical bills, lost wages, or long-term disability, Georgia law allows you to seek compensation. Common scenarios include auto accidents, slip-and-fall injuries, defective products, and wrongful conduct.",
+    title: "Rear-End Crashes",
+    desc: "Often look simple, but insurers still fight injury causation, prior conditions, gap in treatment, and whether the impact was hard enough to cause the claimed injuries.",
     links: [
-      { label: "How insurance adjusters value claims", href: "/resources/how-insurance-adjusters-value-claims" },
-      { label: "Georgia civil litigation stages", href: "/resources/georgia-civil-litigation-stages" },
-      { label: "Expert witnesses", href: "/resources/expert-witnesses-georgia" },
+      { label: "How adjusters value crash claims", href: "/resources/how-insurance-adjusters-value-claims" },
+      { label: "Settlement value guide", href: "/resources/settlement-value-claim-georgia" },
     ],
   },
   {
-    title: "Wrongful Death",
-    desc: "When a death is caused by someone else's negligence or intentional misconduct, certain family members and the estate can bring a claim under O.C.G.A. § 51-4-2. These claims cover funeral expenses, lost financial support, lost companionship, and in some cases punitive damages.",
+    title: "Intersection and Left-Turn Wrecks",
+    desc: "These claims usually turn on traffic signals, turning movements, witness statements, nearby camera footage, skid marks, and whether either driver was speeding or distracted.",
     links: [
-      { label: "Wrongful death in Georgia", href: "/resources/wrongful-death-georgia" },
-      { label: "Statute of limitations", href: "/faq" },
+      { label: "Crash FAQ", href: "/faq" },
+      { label: "Demand letter guide", href: "/resources/demand-letter-insurance-georgia" },
     ],
   },
   {
-    title: "Business Disputes",
-    desc: "Contract breaches, business torts, partnership disputes, and other commercial disagreements fall under Georgia civil law. The statute of limitations for most contract claims is six years, but the clock and the applicable rules depend on the nature of the dispute.",
+    title: "Truck and Commercial Vehicle Crashes",
+    desc: "Commercial crashes can involve the driver, employer, maintenance company, broker, cargo loading, and higher insurance layers. Evidence preservation matters immediately.",
     links: [
-      { label: "Business and contract disputes", href: "/resources/business-contract-disputes-georgia" },
-      { label: "Fulton vs. Richmond vs. Chatham courts", href: "/resources/fulton-vs-richmond-courts" },
+      { label: "Atlanta crash venue guide", href: "/georgia/atlanta" },
+      { label: "Savannah crash venue guide", href: "/georgia/savannah" },
     ],
   },
   {
-    title: "Class Actions",
-    desc: "When a large group of people are harmed by the same conduct, a class action may be the appropriate vehicle for relief. Georgia courts can certify class actions for injunctive relief and monetary damages under the rules of civil procedure.",
+    title: "Rideshare, Delivery, and Company Cars",
+    desc: "Uber, Lyft, delivery, and company-vehicle crashes raise coverage questions that depend on whether the driver was logged in, carrying a passenger, making a delivery, or working at the time.",
     links: [
-      { label: "Contact to discuss your situation", href: "/contact" },
+      { label: "Insurance valuation", href: "/resources/how-insurance-adjusters-value-claims" },
+      { label: "Build a demand letter", href: "/resources/demand-letter-builder" },
+    ],
+  },
+  {
+    title: "Pedestrian, Bicycle, and Motorcycle Crashes",
+    desc: "Serious injuries are common, and fault arguments can be aggressive. Preserve scene photos, lighting conditions, lane position, helmet evidence when relevant, and medical records from day one.",
+    links: [
+      { label: "Settlement value guide", href: "/resources/settlement-value-claim-georgia" },
+      { label: "Social media evidence", href: "/resources/social-media-fatal-to-pi-case" },
+    ],
+  },
+  {
+    title: "Uninsured and Underinsured Drivers",
+    desc: "When the at-fault driver has no coverage or minimum limits, your own UM/UIM coverage can become the practical source of recovery. Treat it like a real claim, not a friendly favor.",
+    links: [
+      { label: "Demand letter guide", href: "/resources/demand-letter-insurance-georgia" },
+      { label: "Crash FAQ", href: "/faq" },
     ],
   },
 ];
@@ -50,10 +66,11 @@ const areas = [
 export default function PracticeAreas() {
   return (
     <main className="container" style={{ paddingTop: "3rem", paddingBottom: "5rem" }}>
-      <p className="eyebrow">Claim Types</p>
-      <h1 style={{ marginTop: "0.5rem", marginBottom: "1rem" }}>Practice Areas</h1>
+      <p className="eyebrow">Crash Types</p>
+      <h1 style={{ marginTop: "0.5rem", marginBottom: "1rem" }}>Georgia Car Crash Claim Types</h1>
       <p style={{ color: "var(--muted)", lineHeight: 1.7, marginBottom: "3rem", maxWidth: "54rem" }}>
-        An overview of the civil claim types this site covers. Each area links to plain-language guides on how Georgia law applies — including deadlines, damages rules, and what the litigation process looks like.
+        Different wrecks create different evidence problems. Use this page to identify the claim type you are dealing with
+        and jump to the guide that matches the insurance and documentation issues most likely to matter.
       </p>
 
       <div className="areas-grid">
@@ -73,7 +90,7 @@ export default function PracticeAreas() {
       </div>
 
       <div className="disclaimer-box" style={{ marginTop: "3rem" }}>
-        <p><strong>Disclaimer:</strong> This page is for informational purposes only and does not constitute legal advice. This site does not create an attorney-client relationship.</p>
+        <p><strong>Disclaimer:</strong> This page is educational information about Georgia car crash claims. It is not legal advice and does not create an attorney-client relationship.</p>
       </div>
     </main>
   );

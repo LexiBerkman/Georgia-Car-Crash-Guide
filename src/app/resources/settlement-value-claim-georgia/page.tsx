@@ -1,11 +1,11 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'How to Value Your Own Georgia Personal Injury Claim — Settlement Math',
-  description: 'A practical guide to calculating what your Georgia personal injury claim is actually worth — medical bills, lost wages, pain and suffering, and the multiplier method adjusters use.',
+  title: 'How to Value Your Georgia Car Crash Settlement — Settlement Math',
+  description: 'A practical guide to estimating what a Georgia car crash claim may be worth — medical bills, lost wages, vehicle damage, pain and suffering, and policy limits.',
   openGraph: {
-    title: 'How to Value Your Own Georgia PI Claim',
-    description: 'Settlement math for Georgia injury claimants without an attorney.',
+    title: 'How to Value a Georgia Car Crash Settlement',
+    description: 'Settlement math for Georgia wreck claims.',
     url: 'https://www.georgiacarcrashguide.com/resources/settlement-value-claim-georgia',
   },
 };
@@ -15,15 +15,15 @@ export default function SettlementValue() {
     <main className="container">
       <article className="article-content">
         <p className="eyebrow">Settlement Basics</p>
-        <h1>How to Value Your Own Georgia Personal Injury Claim</h1>
+        <h1>How to Value Your Georgia Car Crash Settlement</h1>
 
         <p className="lead">
-          Before you negotiate with an insurance company — or decide whether to hire an attorney at all — you need to know what your claim is actually worth. This guide walks you through the math that adjusters use, so you can negotiate from a position of knowledge instead of hope.
+          Before you negotiate with an auto insurance company, you need a grounded estimate of what the wreck claim is worth. This guide walks through the categories adjusters look at so you can negotiate from documents instead of hope.
         </p>
 
         <h2>The Four Numbers That Determine Your Claim Value</h2>
         <p>
-          Every personal injury settlement in Georgia breaks down into four categories. Add them together and you have your claim's gross value before any comparative fault reductions or policy limits constraints.
+          Most Georgia car crash settlements break down into four categories. Add them together and you have the claim's gross value before comparative-fault reductions and policy-limit constraints.
         </p>
 
         <h3 id="medical-bills">1. Medical Bills — Past and Future</h3>
@@ -98,7 +98,7 @@ export default function SettlementValue() {
 
         <h2 id="policy-limits-reality">The Policy Limits Problem</h2>
         <p>
-          In Georgia, the at-fault driver's liability insurance sets the ceiling on what you can recover from that insurer — period. If the other driver's policy has $25,000 limits and your damages are $38,500, the insurer's maximum exposure is $25,000.
+          In Georgia, the at-fault driver's liability insurance usually sets the ceiling on what you can recover from that insurer. If the other driver's policy has $25,000 per-person limits and your damages are $38,500, that insurer's maximum exposure may be $25,000.
         </p>
         <p>
           This is why attorney involvement often doesn't make sense at low policy limits. An attorney taking a typical one-third contingency fee plus costs would take $8,333 of the $25,000 in this example before costs. That leaves $16,667 for the claimant. The math gets worse if costs — medical records retrieval, filing fees, deposition costs — are deducted separately.

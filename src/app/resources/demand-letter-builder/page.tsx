@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import Link from 'next/link';
 
 const STEPS = [
   { id: 1, label: 'Your Info' },
@@ -98,7 +97,7 @@ export default function DemandLetterBuilder() {
       <h1>Build Your Demand Letter in 15 Minutes</h1>
       <p className="lead-text">
         Answer the questions below. Upload your documents at the end — we will generate a complete,
-        ready-to-send demand letter. No attorney required.
+        editable Georgia auto insurance demand letter you can review before sending.
       </p>
 
       {/* Progress */}
@@ -306,9 +305,9 @@ export default function DemandLetterBuilder() {
           <h2>Upload Your Documents</h2>
           <p className="step-desc">Upload any documents that support your claim. You can also skip this step and generate the letter without uploading.</p>
           <div className="doc-upload-area">
-            <p className="doc-upload-icon">📷</p>
+            <p className="doc-upload-icon">Upload</p>
             <p className="doc-upload-main">Take a photo or select from your phone</p>
-            <p className="doc-upload-sub">Tap to open camera — PDF, JPG, PNG accepted</p>
+            <p className="doc-upload-sub">PDF, JPG, and PNG accepted</p>
             <input type="file" multiple accept="image/*,application/pdf" capture="environment" onChange={handleFiles} id="file-input" style={{ display: 'none' }} />
             <label htmlFor="file-input" className="button button-secondary" style={{ cursor: 'pointer', display: 'inline-block', marginTop: '0.75rem' }}>
               Open Camera
@@ -435,35 +434,35 @@ export default function DemandLetterBuilder() {
         .lead-text { color: var(--muted); margin-bottom: 2rem; max-width: 52rem; line-height: 1.7; }
         .step-tracker { display: flex; justify-content: space-between; margin-bottom: 0.5rem; }
         .step-tracker span { font-size: 0.7rem; color: var(--muted); transition: color 0.2s; }
-        .step-tracker span.active { color: var(--foreground); font-weight: 700; }
+        .step-tracker span.active { color: var(--text); font-weight: 700; }
         .step-tracker span.done { color: var(--success, #16a34a); }
-        .progress-bar { height: 4px; background: var(--border); border-radius: 2px; margin-bottom: 2.5rem; overflow: hidden; }
+        .progress-bar { height: 4px; background: var(--line); border-radius: 2px; margin-bottom: 2.5rem; overflow: hidden; }
         .progress-fill { height: 100%; background: var(--accent, #2563eb); transition: width 0.3s ease; }
-        .step-section { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; margin-bottom: 1.5rem; }
+        .step-section { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 2rem; margin-bottom: 1.5rem; }
         .step-section h2 { margin-top: 0; margin-bottom: 0.25rem; font-size: 1.25rem; }
         .step-desc { color: var(--muted); font-size: 0.875rem; margin-bottom: 1.5rem; }
         .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
         .field { display: flex; flex-direction: column; gap: 0.25rem; }
         .field.half { grid-column: span 1; }
         .field label { font-size: 0.8rem; font-weight: 600; color: var(--muted); }
-        .field input, .field textarea { padding: 0.6rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; background: var(--background); color: var(--foreground); font-size: 0.9rem; width: 100%; box-sizing: border-box; font-family: inherit; }
+        .field input, .field textarea { padding: 0.6rem 0.75rem; border: 1px solid var(--line); border-radius: 6px; background: #fffdf8; color: var(--text); font-size: 0.9rem; width: 100%; box-sizing: border-box; font-family: inherit; }
         .field input:focus, .field textarea:focus { outline: none; border-color: var(--accent, #2563eb); }
         .field-hint { font-size: 0.75rem; color: var(--muted); }
-        .infobox { background: var(--background); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; margin-top: 1rem; }
+        .infobox { background: #fffdf8; border: 1px solid var(--line); border-radius: 8px; padding: 1rem; margin-top: 1rem; }
         .infobox-title { font-weight: 700; margin-bottom: 0.75rem; font-size: 0.875rem; }
-        .doc-upload-area { border: 2px dashed var(--border); border-radius: 12px; padding: 2.5rem; text-align: center; margin-bottom: 1.5rem; }
-        .doc-upload-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .doc-upload-area { border: 2px dashed var(--line); border-radius: 12px; padding: 2.5rem; text-align: center; margin-bottom: 1.5rem; }
+        .doc-upload-icon { font-size: 0.75rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.16em; font-weight: 800; color: var(--accent-deep); }
         .doc-upload-main { font-weight: 600; margin-bottom: 0.25rem; }
         .doc-upload-sub { font-size: 0.8rem; color: var(--muted); margin-bottom: 0; }
         .doc-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
-        .doc-item { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 0.75rem; background: var(--background); border: 1px solid var(--border); border-radius: 6px; margin-bottom: 0.5rem; font-size: 0.875rem; }
+        .doc-item { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 0.75rem; background: #fffdf8; border: 1px solid var(--line); border-radius: 6px; margin-bottom: 0.5rem; font-size: 0.875rem; }
         .doc-remove { background: none; border: none; color: var(--muted); cursor: pointer; padding: 0 0.25rem; }
-        .doc-checklist { background: var(--background); border-radius: 8px; padding: 1rem; }
+        .doc-checklist { background: #fffdf8; border-radius: 8px; padding: 1rem; }
         .doc-checklist-title { font-weight: 600; font-size: 0.875rem; margin-bottom: 0.75rem; }
         .doc-check-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
-        .doc-check-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; padding: 0.5rem; background: var(--card); border-radius: 6px; cursor: pointer; }
+        .doc-check-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; padding: 0.5rem; background: var(--surface); border-radius: 6px; cursor: pointer; }
         .review-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem; }
-        .review-card { background: var(--background); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; }
+        .review-card { background: #fffdf8; border: 1px solid var(--line); border-radius: 8px; padding: 1rem; }
         .review-label { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; color: var(--muted); margin-bottom: 0.25rem; }
         .review-card p { margin: 0; font-size: 0.875rem; }
         .review-sub { color: var(--muted); font-size: 0.8rem !important; }
@@ -473,8 +472,8 @@ export default function DemandLetterBuilder() {
         .letter-output { margin-top: 2rem; }
         .letter-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
         .letter-header h3 { margin: 0; }
-        .letter-text { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; white-space: pre-wrap; font-family: Georgia, serif; line-height: 1.8; font-size: 0.9rem; background: #fafafa; }
-        .step-nav { display: flex; justify-content: space-between; padding-top: 1.5rem; border-top: 1px solid var(--border); margin-top: 1.5rem; }
+        .letter-text { border: 1px solid var(--line); border-radius: 12px; padding: 2rem; white-space: pre-wrap; font-family: Georgia, serif; line-height: 1.8; font-size: 0.9rem; background: #fafafa; }
+        .step-nav { display: flex; justify-content: space-between; padding-top: 1.5rem; border-top: 1px solid var(--line); margin-top: 1.5rem; }
         @media (max-width: 640px) {
           .form-grid { grid-template-columns: 1fr; }
           .review-grid { grid-template-columns: 1fr; }

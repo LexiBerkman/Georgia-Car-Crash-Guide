@@ -1,12 +1,14 @@
-import React from 'react';
+import React from "react";
+import Link from "next/link";
 
 export const metadata = {
-  title: 'Filing in Richmond County, Georgia — Augusta State Court Guide',
-  description: 'Practical guide to filing a civil lawsuit in Richmond County — jurisdiction, local rules, filing fees, and what to expect at the Augusta courthouse.',
+  title: "Augusta Car Crash Claims — Richmond County Georgia Guide",
+  description:
+    "Practical guide to Augusta and Richmond County car crash claims: medical proof, insurance issues, military-area traffic, and local venue considerations.",
   openGraph: {
-    title: 'Filing in Richmond County, Georgia',
-    description: 'A practical reference for filing civil cases in Richmond County (Augusta), Georgia.',
-    url: 'https://www.georgiacarcrashguide.com/georgia/augusta',
+    title: "Augusta Car Crash Claims",
+    description: "Richmond County wreck claim guidance for Georgia drivers and families.",
+    url: "https://www.georgiacarcrashguide.com/georgia/augusta",
   },
 };
 
@@ -14,74 +16,45 @@ export default function Augusta() {
   return (
     <main className="container">
       <article className="article-content">
-        <p className="eyebrow">Georgia Courts</p>
-        <h1>Filing a Civil Case in Richmond County, Georgia</h1>
+        <p className="eyebrow">Augusta Crashes</p>
+        <h1>Augusta and Richmond County Car Crash Claims</h1>
 
         <p className="lead">
-          Richmond County Superior Court is the primary venue for civil litigation in the Augusta area. If you are filing a personal injury, contract dispute, or other civil matter in Augusta or the surrounding CSRA (Central Savannah River Area), this guide covers the essentials before you file.
+          Augusta crash claims often involve commuter traffic, military-area travel, medical providers spread across the CSRA, and insurers that press hard on causation and treatment gaps. The essentials are evidence, treatment continuity, and clear documentation of every dollar lost.
         </p>
 
-        <h2>Jurisdiction and Case Types</h2>
-        <p>
-          Richmond County Superior Court has broad jurisdiction over civil matters in the county. Personal injury and wrongful death claims, contract disputes, property damage claims, and domestic relations matters all fall within Superior Court's purview.
-        </p>
-        <p>
-          For cases below $15,000, Richmond County State Court or Magistrate Court may be appropriate alternatives. If your injury claim involves a state agency or the State of Georgia itself, sovereign immunity issues may apply — consult a licensed Georgia attorney to confirm the correct forum.
-        </p>
-
-        <h2>Where to File</h2>
-        <p>
-          Richmond County Superior Court is located at:
-        </p>
-        <p>
-          <strong>735 James Brown Blvd<br />
-          Augusta, GA 30901</strong>
-        </p>
-        <p>
-          The Clerk of Court's Civil Division handles all initial filings. The Civil Division windows are open Monday through Friday. Arrive early — the Augusta courthouse processes a high volume of cases and wait times can be significant, especially on Mondays.
-        </p>
-
-        <h2>Filing Fees</h2>
-        <p>
-          Georgia statutory filing fees apply in Richmond County Superior Court:
-        </p>
+        <h2>Common Augusta Crash Issues</h2>
         <ul>
-          <li><strong>Personal injury / wrongful death:</strong> $64 filing fee plus technology fee</li>
-          <li><strong>Contract and property disputes:</strong> $64 filing fee plus technology fee</li>
-          <li><strong> Garnishments and special proceedings:</strong> Additional fees apply per the relevant statutes</li>
+          <li><strong>Gordon Highway and Washington Road collisions</strong> involving speed, lane changes, and heavy traffic.</li>
+          <li><strong>Fort Eisenhower-area wrecks</strong> where employment, military status, or out-of-state drivers can complicate communication.</li>
+          <li><strong>Commercial vehicle crashes</strong> tied to delivery routes, contractors, and regional transport.</li>
+          <li><strong>Medical causation disputes</strong> when treatment is delayed or spread across multiple providers.</li>
         </ul>
+
+        <h2>Medical Documentation</h2>
         <p>
-          Out-of-county service and sheriff's fees are additional. If you are filing a mechanics' lien enforcement or other specialized claim, confirm the applicable fees with the Clerk's office before filing.
+          Serious claims need a clean treatment timeline. Keep emergency records, urgent-care notes, imaging reports, orthopedic referrals, therapy notes, medication receipts, and work restrictions. If pain returns after a gap, document why treatment stopped and restarted.
         </p>
 
-        <h2>Local Rules</h2>
+        <h2>Insurance and Policy Limits</h2>
         <p>
-          Richmond County Superior Court operates under the Georgia Civil Practice Act with local rules that supplement it. Two rules worth noting before you file:
-        </p>
-        <h3>Discovery and Case Scheduling</h3>
-        <p>
-          Richmond County typically issues a scheduling order within 30-45 days of the defendant's answer. Discovery in Richmond County tends to move at a measured pace — cases are not routinely fast-tracked unless they involve significant damages or urgent circumstances.
-        </p>
-        <h3>Mediation Requirements</h3>
-        <p>
-          Like most Georgia Superior Courts, Richmond County refers civil cases to mediation. Do not assume your case will go straight to trial. Expect mediation to be scheduled before any dispositive motion deadline, and treat it as a real opportunity — Richmond County juries can be unpredictable, and settlements reached before trial preserve control over the outcome.
+          Georgia minimum liability coverage can be too low for a serious injury claim. Ask for the at-fault driver's coverage information and check your own policy for uninsured or underinsured motorist coverage. If several vehicles were involved, track each insurer separately.
         </p>
 
-        <h2>Jury Verdicts in Richmond County</h2>
+        <h2>Richmond County Venue</h2>
         <p>
-          Richmond County jury verdicts tend to reflect the mix of urban and rural perspectives in the CSRA. Jury pools draw from across the county. If you are filing in Richmond County and your case involves a defendant from a different community, venue choices may be worth discussing with counsel — the jury pool composition matters in ways that are hard to predict.
+          If settlement fails, a lawsuit may proceed in the proper Richmond County court depending on the parties and facts. Local venue matters because docket pace, mediation expectations, and jury composition can shape settlement posture before trial.
         </p>
 
-        <h2>What Happens After You File</h2>
-        <ol>
-          <li><strong>Service of process:</strong> You must serve the defendant(s) within 90 days of filing. Use the sheriff's office or a private process server. Proof of service must be filed with the court before anything else happens.</li>
-          <li><strong>Defendant's answer and affirmative defenses:</strong> The defendant has 30 days to respond. Pay close attention to affirmative defenses — issues like comparative negligence, assumption of risk, and statute of limitations must be raised in the answer or they may be waived.</li>
-          <li><strong>Case scheduling order:</strong> The court will enter a scheduling order controlling discovery deadlines, expert disclosure dates, and the trial term. Read it carefully — compliance is mandatory.</li>
-          <li><strong>Discovery:</strong> Document requests, interrogatories, and depositions. Richmond County judges expect parties to engage in good-faith discovery. Motions to compel are available if a party refuses to respond.</li>
-        </ol>
+        <h2>What to Read Next</h2>
+        <ul>
+          <li><Link href="/faq">Georgia car crash FAQ</Link></li>
+          <li><Link href="/resources/settlement-value-claim-georgia">Settlement value after a Georgia wreck</Link></li>
+          <li><Link href="/resources/social-media-fatal-to-pi-case">Social media and crash evidence</Link></li>
+        </ul>
 
         <div className="disclaimer-box">
-          <p><strong>Disclaimer:</strong> This page is for informational purposes only and does not constitute legal advice. This site does not create an attorney-client relationship. If you have questions about filing in Richmond County, consult a licensed Georgia attorney.</p>
+          <p><strong>Disclaimer:</strong> This page is educational information only and is not legal advice. Consult a licensed Georgia attorney for advice about a specific Augusta car crash claim.</p>
         </div>
       </article>
     </main>
