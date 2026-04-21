@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Georgia UM Bad Faith — When Your Own Insurer Low-Balls You",
+  title: "Georgia UM Bad Faith — When Your Own Insurer Low-Balls You After a Crash",
   description:
-    "How Georgia uninsured motorist law can let your own insurance company low-ball a serious crash claim, including Blazys v. McKnight and Georgia bad faith remedies.",
+    "How Georgia uninsured motorist law can let your own insurance company low-ball a serious crash claim, including add-on vs. reduce-by UM coverage, Blazys v. McKnight, and Georgia bad faith remedies.",
   openGraph: {
     title: "Georgia UM Bad Faith",
     description: "Why your own insurer may fight you after an uninsured-driver crash in Georgia.",
@@ -26,7 +26,7 @@ const sources = [
   ["Montana CSI State Farm Settlement Press Release", "https://csimt.gov/2024/02/06/commissioner-downing-announces-historic-settlement-with-state-farm-regarding-unfair-claim-settlement-practices/"],
   ["The Insurer — Court Orders State Farm to Pay $54.6 Million Over Vehicle Valuations", "https://www.theinsurer.com/ti/news/court-orders-state-farm-to-pay-546-million-over-vehicle-valuations-with-jury-2025-08-06/"],
   ["Top Class Actions — Washington State Farm Personal Injury Denial Class Action Settlement", "https://topclassactions.com/lawsuit-settlements/closed-settlements/washington-state-farm-personal-injury-denial-class-action-settlement/"],
-  ["Property Insurance Coverage Law Blog — State Farm Paid McKinsey $84 Million", "https://www.propertyinsurancecoveragelaw.com/2023/01/articles/insurance/state-farm-paid-mckinsey-84-million-in-two-years/"],
+  ["Property Insurance Coverage Law Blog — State Farm Paid McKinsey $84 Million", "https://www.propertyinsurancecoveragelaw.com/blog/lessons-policyholders-and-insurance-regulators-should-learn-from-mckinsey-and-state-farm/"],
   ["Jay M. Feinman, Delay, Deny, Defend", "https://www.amazon.com/Delay-Deny-Defend-Insurance-Companies/dp/B0DSJXZWHH/ref=sr_1_1?crid=3UDXVW094DM76&dib=eyJ2IjoiMSJ9.mwpnelaY_vwy8jQDyBmezcPmo1LHE8JCyagaejRV3jU.it9ae1nAKWp9AWEh_Wp-I30mzTwWz8NDI-uTGLqpRpI&dib_tag=se&keywords=Jay+M.+Feinman%2C+Delay%2C+Deny%2C+Defend&qid=1776785876&sprefix=jay+m.+feinman%2C+delay%2C+deny%2C+defend%2Caps%2C116&sr=8-1"],
   ["State Farm 2025 Annual Report", "https://www.statefarm.com/content/dam/sf-library/en-us/secure/legacy/pdf/2025-annual-report.pdf"],
 ];
@@ -36,10 +36,10 @@ export default function GeorgiaUmBadFaith() {
     <main className="article-layout">
       <article className="article-content">
         <p className="eyebrow">UM / UIM Claims</p>
-        <h1>Your Own Insurance Company Can Low-Ball You After a Crash</h1>
+        <h1>Your Own Insurance Company Can Low-Ball You After a Crash, and Georgia Law Lets Them Get Away With It</h1>
         <p className="lead">
-          How a quirk of Georgia law strips injured drivers of one of their most powerful legal weapons,
-          and why insurers have every financial reason to exploit it.
+          How a quirk of Georgia law strips injured drivers of their most powerful legal weapon,
+          and why insurers like State Farm have every financial reason to exploit it.
         </p>
 
         <figure className="article-hero">
@@ -80,11 +80,38 @@ export default function GeorgiaUmBadFaith() {
           you make a serious UM claim, the safety net can start to feel like a negotiation with an adversary.
         </p>
 
+        <h2 id="add-on-reduce-by">Add-On vs. Reduce-By Coverage: The Policy Language That Could Leave You With Nothing</h2>
+        <p>
+          Most Georgians who pay for uninsured motorist coverage assume it will step in and pay when the at-fault driver
+          is uninsured or underinsured. What they may not know is that there are two fundamentally different types of UM
+          coverage, and one can be almost worthless in common crash scenarios.
+        </p>
+        <p>
+          <strong>Add-on coverage</strong> does what most people think their UM policy does. If the at-fault driver has
+          $25,000 in liability insurance and you have $100,000 in add-on UM coverage, the at-fault driver&apos;s policy can
+          pay its $25,000 and your UM coverage can apply on top of that, giving you access to up to $125,000 total,
+          capped by your actual losses.
+        </p>
+        <p>
+          <strong>Reduce-by coverage</strong>, sometimes called offset coverage, works differently. Instead of paying on
+          top of the at-fault driver&apos;s policy, it only pays the difference between what the at-fault driver carries and
+          your UM limits.
+        </p>
+        <blockquote>
+          If you have $25,000 in reduce-by UM coverage and the driver who hit you carries Georgia&apos;s $25,000 minimum,
+          their insurer pays $25,000. Your UM coverage pays the difference between $25,000 and $25,000, which is zero.
+        </blockquote>
+        <p>
+          The fix is simple but costs more: buy add-on UM coverage and make sure your limits are high enough to matter.
+          Check your declarations page. If it says offset or reduce-by, you may have coverage that provides far less
+          protection than you think.
+        </p>
+
         <h2 id="disappears">The Magic Trick: Your Insurance Company Disappears at Trial</h2>
         <p>
           When you file a lawsuit against an uninsured driver and serve your UM carrier, O.C.G.A. § 33-7-11(d) gives the
-          insurance company a remarkable option. The insurer may litigate in its own name, or it may defend the case in
-          the name of the uninsured driver who hurt you.
+          insurance company a strategic choice. The insurer may appear as itself, as the tortfeasor, or as both. It can
+          also choose to appear solely in the tortfeasor&apos;s name.
         </p>
         <p>
           That means the jury may never learn that the company fighting you is your own insurer. The carrier hired defense
@@ -148,9 +175,9 @@ export default function GeorgiaUmBadFaith() {
           <p className="callout-title">The UM Carrier&apos;s Financial Calculus in Georgia</p>
           <ul>
             <li><strong>Pay full value?</strong> That money is gone permanently.</li>
-            <li><strong>Low-ball and the policyholder gives up?</strong> The company keeps the underpayment.</li>
+            <li><strong>Low-ball and the policyholder gives up?</strong> The company keeps the underpayment. This happens far more often than trials.</li>
             <li><strong>Policyholder fights back?</strong> Elect to proceed in the tortfeasor&apos;s name and avoid § 9-11-68 fee exposure.</li>
-            <li><strong>Worst-case scenario?</strong> A harder, separate bad faith path under Georgia insurance statutes.</li>
+            <li><strong>Worst-case scenario?</strong> A harder, separate bad faith path under Georgia insurance statutes, including § 33-7-11(j), which requires a judgment first and a separate action later.</li>
           </ul>
         </div>
         <p>
@@ -161,14 +188,22 @@ export default function GeorgiaUmBadFaith() {
         <h2 id="state-farm">State Farm: A Case Study in Calculated Low-Balling</h2>
         <p>
           No examination of UM bad faith practices would be complete without a hard look at State Farm, the largest auto
-          insurer in the United States. The evidence against State Farm is not just anecdotal. It has been tested in court,
-          confirmed in multiple published decisions, and acknowledged by the United States Supreme Court.
+          insurer in the United States, with roughly 19% of the market and over $73 billion in annual premiums. The evidence
+          against State Farm is not anecdotal. It has been tested in court, confirmed by multiple state supreme courts, and
+          acknowledged by the United States Supreme Court itself.
         </p>
         <p>
-          Beginning in 1979, State Farm implemented what it internally called Performance, Planning and Review, or PP&amp;R.
-          According to findings discussed in <em>Campbell v. State Farm</em>, the policy used the claims-adjustment process
-          as a profit center. The U.S. Supreme Court later acknowledged evidence of a national scheme to meet fiscal goals
-          by capping payouts company-wide.
+          <strong>The PP&amp;R Scheme.</strong> Beginning in 1979, State Farm implemented what it internally called Performance,
+          Planning and Review, or PP&amp;R. According to the Utah Supreme Court&apos;s findings in <em>Campbell v. State Farm</em>,
+          this policy was created with the objective of using the claims-adjustment process as a profit center. The U.S.
+          Supreme Court acknowledged evidence of a national scheme to meet fiscal goals by capping payouts company-wide.
+          Critically, the scope of PP&amp;R applied to both third-party and first-party claims, meaning it applied directly to
+          UM and UIM coverage.
+        </p>
+        <p>
+          Former State Farm employees testified they were subjected to recurrent pressure to reduce payouts below fair
+          value and, at times, to knowingly underpay claims. The scheme allegedly targeted people least likely to fight
+          back, and litigation revealed systematic efforts to destroy internal claims-handling manuals.
         </p>
 
         <div className="stat-row">
@@ -187,7 +222,7 @@ export default function GeorgiaUmBadFaith() {
         </div>
 
         <p>
-          From 2006 to 2008, State Farm reportedly paid McKinsey &amp; Company $84 million for a claims-spend project known
+          <strong>The McKinsey Connection.</strong> From 2006 to 2008, State Farm reportedly paid McKinsey &amp; Company $84 million for a claims-spend project known
           internally as CMSR. The project produced the Advanced Claims Excellence program, which State Farm leadership
           described as designed to cut claim expenses. In practice, cutting claim expenses means paying less on claims.
         </p>
@@ -222,16 +257,6 @@ export default function GeorgiaUmBadFaith() {
         </div>
 
         <div className="case-card">
-          <p className="case-name">Pajcic &amp; Pajcic UM Verdict (Duval County, Florida, 2015)</p>
-          <p className="case-cite">Florida State Court | Jury verdict: $750,000</p>
-          <p>
-            A State Farm insured was stopped at a red light when struck by an uninsured driver. State Farm offered a fraction
-            of the $50,000 UM policy. The plaintiff made a within-limits counteroffer. State Farm rejected it. The jury
-            returned a verdict 30 times State Farm&apos;s offer, exposing the company to attorney&apos;s fees on top of the verdict.
-          </p>
-        </div>
-
-        <div className="case-card">
           <p className="case-name">Washington State UIM Vehicle-Valuation Verdict (2025)</p>
           <p className="case-cite">Washington State | Jury verdict: $54.6 million</p>
           <p>
@@ -252,30 +277,36 @@ export default function GeorgiaUmBadFaith() {
         </div>
 
         <p>
-          The pattern is not a string of isolated mistakes. It is what happens when a claims system rewards minimizing
-          payouts and the legal structure does not create enough downside for doing it.
+          The pattern is not a string of isolated mistakes. It is the logical output of a system designed to maximize profit
+          by minimizing claim payments, a system that has been running under various names and consultants since 1979.
         </p>
 
         <h2 id="georgia">Georgia: The Perfect Legal Environment for Low-Balling</h2>
         <p>
-          This is not exclusively a State Farm problem. The incentive structure that enables this behavior in Georgia applies
-          to every UM carrier operating in the state.
+          This is not exclusively a State Farm problem. State Farm is the most documented because it has been the most
+          litigated. But the incentive structure that enables this behavior in Georgia applies to every UM carrier operating
+          in the state.
         </p>
         <p>
-          Georgia does have bad faith remedies. <a href="https://law.justia.com/codes/georgia/title-33/chapter-4/section-33-4-6/" target="_blank" rel="noopener noreferrer">O.C.G.A. § 33-4-6</a> provides a general first-party bad faith penalty, and <a href="https://law.justia.com/codes/georgia/title-33/chapter-7/section-33-7-11/" target="_blank" rel="noopener noreferrer">O.C.G.A. § 33-7-11(j)</a> provides a UM-specific bad faith remedy. But both are narrower, more procedurally demanding, and harder to trigger than automatic § 9-11-68 fee-shifting in an ordinary tort case.
+          <a href="https://law.justia.com/codes/georgia/title-33/chapter-4/section-33-4-6/" target="_blank" rel="noopener noreferrer">O.C.G.A. § 33-4-6</a> provides a general first-party bad faith penalty of up to 50% of the insurer&apos;s liability, or $5,000, whichever is greater, plus reasonable attorney&apos;s fees. It requires a proper written demand, a 60-day failure to pay, and a finding that the refusal was frivolous and unfounded.
         </p>
         <p>
-          The rational financial choice for a UM insurer facing a serious claim may be to low-ball it, fight it, and absorb
-          whatever verdict comes, because many claimants will never make it that far.
+          <a href="https://law.justia.com/codes/georgia/title-33/chapter-7/section-33-7-11/" target="_blank" rel="noopener noreferrer">O.C.G.A. § 33-7-11(j)</a>, the UM-specific bad faith provision, provides a penalty of up to 25% of the recovery, or $25,000, whichever is greater, plus attorney&apos;s fees. But it is available only in a separate action, brought only after the insured first obtains a judgment against the uninsured motorist in the underlying tort action.
+        </p>
+        <p>
+          Neither remedy creates the automatic, no-excuses financial exposure that § 9-11-68 creates in ordinary litigation.
+          The result is a legal framework in which the rational financial choice for a UM insurer facing a serious claim is
+          to low-ball it, fight it, and absorb whatever verdict comes, because the worst-case downside is bounded and many
+          claimants never make it to trial.
         </p>
 
         <h2 id="what-to-do">What You Can Do</h2>
         <ol>
           <li><strong>Do not assume your insurance company is on your side.</strong> In a serious UM claim, your insurer&apos;s financial interest is directly opposed to yours.</li>
-          <li><strong>Document everything from the start.</strong> Every communication, offer, deadline, medical bill, and coverage position matters.</li>
-          <li><strong>Know what bad faith means in Georgia.</strong> The standard is demanding and procedural details matter.</li>
-          <li><strong>Understand the § 33-7-11(j) path.</strong> The UM-specific bad faith remedy may require a judgment first and a separate action later.</li>
-          <li><strong>Hire a lawyer who knows this terrain.</strong> Georgia UM cases are procedurally different from ordinary crash claims.</li>
+          <li><strong>Document everything from the start.</strong> Every communication, every offer, every deadline. Both § 33-4-6 and § 33-7-11(j) require a formal written demand before bad faith penalties can attach.</li>
+          <li><strong>Know what bad faith means in Georgia.</strong> The standard is demanding: courts look for a frivolous and unfounded refusal to pay, not merely a low offer.</li>
+          <li><strong>Understand the § 33-7-11(j) path.</strong> The UM-specific bad faith remedy requires a judgment against the uninsured motorist first, then a separate action against the UM carrier.</li>
+          <li><strong>Hire a lawyer who knows this terrain.</strong> Georgia UM cases are technically complex and strategically different from ordinary crash claims.</li>
         </ol>
 
         <h2 id="bottom-line">The Bottom Line</h2>
@@ -288,6 +319,12 @@ export default function GeorgiaUmBadFaith() {
           In Georgia, the offer-of-settlement statute has a loophole large enough for a UM carrier to drive through it.
           Carriers can low-ball claims, elect to hide behind the tortfeasor&apos;s name at trial, and face no § 9-11-68
           fee-shifting consequences for doing so. The remedies that remain are narrower and harder to use.
+        </p>
+        <p>
+          The court in <em>Blazys v. McKnight</em> acknowledged the problem plainly. The Georgia legislature knows about it.
+          Whether they act is a political question. In the meantime, the financial incentive for every UM insurer operating
+          in Georgia, State Farm included, is to pay as little as possible and bet that you will not fight back hard enough
+          to make it matter.
         </p>
         <blockquote>
           Knowing that is not just useful information. In a serious UM claim, it may be the most important thing you know.
@@ -318,6 +355,7 @@ export default function GeorgiaUmBadFaith() {
         <ul className="sidebar-nav">
           <li><Link href="#nightmare">The Nightmare Scenario</Link></li>
           <li><Link href="#um-coverage">UM Coverage</Link></li>
+          <li><Link href="#add-on-reduce-by">Add-On vs. Reduce-By</Link></li>
           <li><Link href="#disappears">Insurer Disappears</Link></li>
           <li><Link href="#blazys">Blazys v. McKnight</Link></li>
           <li><Link href="#state-farm">State Farm</Link></li>
